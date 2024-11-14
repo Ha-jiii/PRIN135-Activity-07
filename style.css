@@ -1,0 +1,18 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    animation: rowing 2s infinite;
+    
+}
+
+@keyframes rowing {
+    0%, 100% {
+        transform: rotate(90deg);
+    }
+    50% {
+        transform: rotate(-90deg);
+    }
+}
